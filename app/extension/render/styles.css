@@ -1,0 +1,40 @@
+.fjs-tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.info-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.info-icon:hover + .fjs-tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.fjs-tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%; /* Position above the icon */
+  left: 12px;
+  transform: translateX(-50%);
+  padding: 8px;
+  background-color: var(--color-grey-225-10-15);
+  color: var(--color-white);
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s;
+  z-index: 10;
+}
+
+.fjs-tooltip-text > * {
+  margin: 0;
+  line-height: normal;
+}
