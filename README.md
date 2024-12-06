@@ -14,7 +14,7 @@ To achieve that we will walk through the following steps:
 * Add custom properties panel entries
 
 A step-by-step guide can be found here:
-[Form-js custom component creation](https://github.com/bpmn-io/form-js-examples/tree/master/custom-components)
+[Form-js Custom Components Example](https://github.com/bpmn-io/form-js-examples/tree/master/custom-components)
 
 ### Add a custom form component renderer
 
